@@ -7,9 +7,18 @@
 """
 PROMPT SUBMITTED TO CLAUDE:
 
-"Write a Python program that prints a diamond pattern of asterisks.
-The user inputs the number of rows for the upper half. Include proper
-spacing and use nested loops only (no string multiplication tricks)."
+You are an expert Python developer. Your task is to write a complete, production-ready Python program that validates Indian PAN (Permanent Account Number) card numbers based on their required format.
+
+Requirements:
+
+Validate the PAN format: 5 uppercase letters, followed by 4 digits, followed by 1 uppercase letter (e.g., ABCDE1234F)
+Use if-else conditions for all validation logic (do not use regex or other pattern-matching approaches)
+The 4th character of the PAN indicates the taxpayer type—document this in comments but validation of the specific taxpayer type is not required
+The program should accept a PAN number as input and return a clear pass/fail validation result
+Include error handling for edge cases (None values, non-string inputs, incorrect length, invalid character types)
+Provide clear, descriptive output messages indicating what validation rule failed (if applicable)
+Include 3-5 test cases demonstrating both valid and invalid PAN numbers
+Output: A single, runnable Python script that can be executed immediately without modification. The script should be well-commented and follow PEP 8 style guidelines.
 """
 
 # ── AI-GENERATED CODE ────────────────────────────────────────
