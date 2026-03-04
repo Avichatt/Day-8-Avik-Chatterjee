@@ -1,6 +1,6 @@
 # ============================================================
 # PART A: Student Admission Decision System
-# Day 8 Assignment | codewithnavaid
+# Day 8 Assignment 
 # ============================================================
 
 def get_float_input(prompt, min_val, max_val):
