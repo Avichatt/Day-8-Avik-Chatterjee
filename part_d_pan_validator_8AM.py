@@ -7,10 +7,30 @@
 """
 PROMPT SUBMITTED TO CLAUDE:
 
-"Write a Python program that validates an Indian PAN card number format
-using if-else conditions. PAN format: 5 uppercase letters, 4 digits,
-1 uppercase letter (e.g., ABCDE1234F). The 4th character indicates
-the type of taxpayer."
+You are an expert Python developer. Your task is to write a Python program that generates a diamond pattern using asterisks.
+
+Requirements:
+
+The program should accept user input for the number of rows in the upper half of the diamond
+Use only nested loops to construct the pattern (no string multiplication with * operator)
+Include proper spacing so the diamond is centered and visually balanced
+The lower half should mirror the upper half
+Implementation details:
+
+Prompt the user to enter the number of rows
+Validate that the input is a positive integer
+Use nested for loops to control both row iteration and character placement
+Calculate spacing dynamically based on the row position and total size
+Print each row with the correct number of leading spaces and asterisks
+Example behavior:
+If the user inputs 4, the output should display a complete diamond (upper and lower halves) with the upper half having 4 rows, properly spaced and centered.
+
+Code quality:
+
+The code should be readable and well-structured
+Include comments explaining the loop logic
+Handle edge cases gracefully (e.g., user enters 0 or negative numbers)
+Write clean, production-ready Python code that fulfills these requirements.
 """
 
 # ── AI-GENERATED CODE (Claude's output) ─────────────────────
